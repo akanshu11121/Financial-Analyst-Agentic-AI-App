@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 from set_configs import set_configuration
 
 # --- Page Configuration ---
-set_configuration()
+# set_configuration()
 st.set_page_config(
     page_title="Agentic AI in Finance",
     layout="wide",
