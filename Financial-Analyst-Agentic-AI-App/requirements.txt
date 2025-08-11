@@ -1,0 +1,21 @@
+# Core Streamlit App
+streamlit>=1.20
+pandas>=1.5
+requests>=2.28
+# Data & Plotting
+yfinance>=0.2.28
+matplotlib>=3.5
+wordcloud>=1.9.2
+plotly>=5.10.0
+# PDF Generation
+weasyprint>=55.0
+pdfkit>=1.0.0
+beautifulsoup4>=4.11.0
+# AI Backend
+crewai==0.28.8
+crewai_tools==0.1.6
+langchain_community==0.0.29
+langchain_openai>=0.1.0
+python-dotenv>=1.0.0
+markdown
+tiktoken

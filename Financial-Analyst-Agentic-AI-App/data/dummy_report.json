@@ -1,0 +1,153 @@
+{
+    "stock_overview": "Tata Motors Ltd. (NSE: TATAMOTORS) is a leading Indian automotive manufacturer engaged in the design, manufacture, and sale of passenger vehicles, commercial vehicles, and electric vehicles, operating in both domestic and international markets through brands like Tata, Jaguar, and Land Rover. It belongs to the **large-cap** category with a market capitalization exceeding ₹2 lakh crore (latest available data). Over the past few months, the stock has shown a **strong uptrend**, supported by robust sales in passenger EVs and improved performance in JLR. **Key strengths** include a diversified product portfolio across segments, strong brand equity, and growing EV capabilities. **Key risks** involve exposure to cyclical demand in the auto sector, raw material price volatility, and global economic uncertainties impacting JLR sales. In the Indian market, Tata Motors is among the top three passenger vehicle players and a leader in the commercial vehicle segment, competing with Mahindra & Mahindra, Maruti Suzuki, and Ashok Leyland. The **future outlook** remains positive, driven by EV adoption, cost optimization, and demand recovery in both domestic and export markets, though macroeconomic headwinds and currency fluctuations could pose challenges. *(Note: Market cap and performance trends are based on latest publicly available data as of early 2024.)*",
+    "markdown_report": "## **Comprehensive Risk Analysis Report – TATAMOTORS Swing Setups**
+
+### **Overview**
+Two swing trading setups are proposed for TATAMOTORS:
+1. **Bearish Breakdown Short** below ₹628 on high volume.
+2. **Oversold Bounce Long** between ₹600–₹585 with RSI < 30.
+
+Both setups include clear entry conditions, position sizing rules, stop-loss placements, scaling, and trailing stop mechanisms. The trader’s risk tolerance is **medium**, with per-trade risk limits of 2% (short) and 1.5% (long).
+
+---
+
+## **1. Market Risk**
+
+**Definition:** The risk that changes in the overall market environment (e.g., NIFTY 50 trend, macroeconomic events, sector sentiment) will adversely impact TATAMOTORS price movement.
+
+**Scenario 1 – Bearish Breakdown Short:**
+- **Risk:** A sudden reversal in the automotive sector or a broad market rally could invalidate the breakdown, triggering stop-loss.
+- **Mitigation:**
+  - Confirm breakdown with broader market weakness (NIFTY 50, auto sector index) before committing.
+  - Avoid initiating shorts ahead of major policy announcements, budget days, or earnings releases.
+  - Monitor global cues (commodity prices, crude oil, USDINR) that can influence auto stocks.
+
+**Scenario 2 – Oversold Bounce Long:**
+- **Risk:** Catching a falling knife if broader market sentiment remains bearish despite oversold signals.
+- **Mitigation:**
+  - Only take long trades if broader market shows signs of stabilization or reversal.
+  - Avoid entering if major macro events could push the stock deeper into oversold territory.
+
+---
+
+## **2. Execution Risk**
+
+**Definition:** The danger of orders not filling as planned due to sudden volatility, slippage, or technical issues.
+
+**Scenario 1:**
+- **Risk:** Sharp breakdowns can cause gaps below the stop-limit range, leading to non-execution or poor fills.
+- **Mitigation:**
+  - Use limit orders as planned to avoid extreme slippage, but monitor live to switch to a marketable order if momentum is strong and liquidity is sufficient.
+  - Ensure trading platform is stable during execution.
+  - Avoid relying solely on automated orders without alert monitoring.
+
+**Scenario 2:**
+- **Risk:** Reversal candles may trigger buy stops during high volatility, leading to immediate whipsaw.
+- **Mitigation:**
+  - Use stop-limit as planned, with tolerance of ₹0.50–₹1 to control slippage.
+  - Avoid entering during low-volume holiday sessions or at market open when spreads widen.
+
+---
+
+## **3. Liquidity Risk**
+
+**Definition:** The risk of not being able to enter or exit positions without significant price impact.
+
+**Both Scenarios:**
+- TATAMOTORS generally has high liquidity, but spikes in volatility can widen bid-ask spreads.
+- **Mitigation:**
+  - Execute larger positions in tranches (as planned: 70% initial,
+    30% on pullback) to reduce impact.
+  - Avoid full-size entries in low-volume conditions.
+
+---
+
+## **4. Volatility Risk**
+
+**Definition:** Greater-than-expected price swings that can prematurely hit stops or cause large drawdowns.
+
+**Scenario 1:**
+- **Risk:** Post-breakdown volatility may cause violent intraday reversals.
+- **Mitigation:**
+  - ATR-based trailing stops after partial profit-taking help protect gains.
+  - Consider slightly wider initial stops if ATR is significantly elevated, with adjusted position sizing.
+
+**Scenario 2:**
+- **Risk:** Oversold rallies can be choppy with multiple retests of lows.
+- **Mitigation:**
+  - Allow for wider stops in high ATR environments but reduce position size accordingly.
+
+---
+
+## **5. False Breakout / Breakdown Risk**
+
+**Scenario 1:**
+- **Risk:** Price dips below ₹628 briefly then recovers (“bear trap”).
+- **Mitigation:**
+  - Wait for 15-minute candle close below ₹628 with volume confirmation as planned.
+  - Cross-check with MACD trend and ATR for momentum confirmation.
+
+**Scenario 2:**
+- **Risk:** Price bounces temporarily from oversold zone but resumes downtrend.
+- **Mitigation:**
+  - Wait for bullish reversal candle close above mid-point with volume > 20-day average.
+  - Avoid countertrend trades if market breadth remains weak.
+
+---
+
+## **6. Stop-Loss Placement Risk**
+
+**Scenario 1:**
+- SL above swing high at ₹640 may be too tight in high volatility.
+- **Mitigation:** Adjust stop based on ATR multiples; ensure position size compensates for wider stop.
+
+**Scenario 2:**
+- SL at ₹575 is logical (below support), but in extreme sell-offs could be hit in a single gap.
+- **Mitigation:** Consider using a volatility buffer below ₹575 in high ATR conditions.
+
+---
+
+## **7. Position Sizing Risk**
+
+**Scenario 1:** 2% equity risk with ₹12/share risk is reasonable for medium risk tolerance.  
+**Scenario 2:** 1.5% for countertrend long is conservative and appropriate.
+
+- **Mitigation:** Ensure equity risk % is consistent with portfolio-level drawdown limits. Avoid overlapping correlated trades that can compound risk.
+
+---
+
+## **8. Scaling Approach Risk**
+
+**Scaling 70% initial,
+    30% pullback entry** is effective for reducing entry price and risk. However:
+- **Risk:** Pullback may never occur, resulting in missed full position during strong moves.
+- **Mitigation:** Be flexible—if confirmation is strong, deploy full size upfront.
+
+---
+
+## **9. Event Risk**
+
+- **Risk:** Corporate announcements, earnings, regulatory changes, or geopolitical shocks can invalidate technical setups.
+- **Mitigation:** Avoid holding through known high-risk events unless planned strategy allows for volatility.
+
+---
+
+## **Suitability for Medium-Risk Swing Trading**
+- Risk per trade (2% short,
+    1.5% long) aligns well with medium risk tolerance.
+- Technical confirmations, partial profit-taking, and trailing stops are sound risk control measures.
+- Scaling strategy reduces initial exposure and improves average price.
+- The approach balances opportunity capture with controlled downside.
+
+---
+
+## **Final Recommendations**
+1. **Confirm market context** before trade—align with sector and index trends.
+2. **Adopt ATR-adjusted stops** in volatile markets to avoid premature exits.
+3. **Maintain discipline** in waiting for candle closes and volume confirmation to reduce false signal risk.
+4. **Monitor positions actively** during execution windows to manage slippage and liquidity changes.
+5. **Avoid overexposure**—limit number of concurrent positions in correlated stocks.
+6. **Review trades post-exit** to refine stop placement and scaling tactics.
+
+By adhering to these safeguards, both setups can be executed in a manner consistent with medium-risk swing trading objectives, with effective mitigation against the major identified risks."
+}

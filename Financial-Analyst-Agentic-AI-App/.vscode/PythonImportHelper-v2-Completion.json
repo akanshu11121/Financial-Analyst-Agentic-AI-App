@@ -1,0 +1,733 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "crewai",
+        "description": "crewai",
+        "isExtraImport": true,
+        "detail": "crewai",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "importPath": "crewai",
+        "description": "crewai",
+        "isExtraImport": true,
+        "detail": "crewai",
+        "documentation": {}
+    },
+    {
+        "label": "Crew",
+        "importPath": "crewai",
+        "description": "crewai",
+        "isExtraImport": true,
+        "detail": "crewai",
+        "documentation": {}
+    },
+    {
+        "label": "Crew",
+        "importPath": "crewai",
+        "description": "crewai",
+        "isExtraImport": true,
+        "detail": "crewai",
+        "documentation": {}
+    },
+    {
+        "label": "Process",
+        "importPath": "crewai",
+        "description": "crewai",
+        "isExtraImport": true,
+        "detail": "crewai",
+        "documentation": {}
+    },
+    {
+        "label": "ScrapeWebsiteTool",
+        "importPath": "crewai_tools",
+        "description": "crewai_tools",
+        "isExtraImport": true,
+        "detail": "crewai_tools",
+        "documentation": {}
+    },
+    {
+        "label": "SerperDevTool",
+        "importPath": "crewai_tools",
+        "description": "crewai_tools",
+        "isExtraImport": true,
+        "detail": "crewai_tools",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "yfinance",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yfinance",
+        "description": "yfinance",
+        "detail": "yfinance",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "markdown",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "markdown",
+        "description": "markdown",
+        "detail": "markdown",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.graph_objects",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.graph_objects",
+        "description": "plotly.graph_objects",
+        "detail": "plotly.graph_objects",
+        "documentation": {}
+    },
+    {
+        "label": "WordCloud",
+        "importPath": "wordcloud",
+        "description": "wordcloud",
+        "isExtraImport": true,
+        "detail": "wordcloud",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_history",
+        "importPath": "backend.data_fetcher",
+        "description": "backend.data_fetcher",
+        "isExtraImport": true,
+        "detail": "backend.data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "plot_history_to_bytes",
+        "importPath": "backend.data_fetcher",
+        "description": "backend.data_fetcher",
+        "isExtraImport": true,
+        "detail": "backend.data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "call_agent_api",
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "isExtraImport": true,
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "markdown_to_pdf_bytes",
+        "importPath": "backend.report",
+        "description": "backend.report",
+        "isExtraImport": true,
+        "detail": "backend.report",
+        "documentation": {}
+    },
+    {
+        "label": "styled_button",
+        "importPath": "components.buttons",
+        "description": "components.buttons",
+        "isExtraImport": true,
+        "detail": "components.buttons",
+        "documentation": {}
+    },
+    {
+        "label": "styled_download_button",
+        "importPath": "components.buttons",
+        "description": "components.buttons",
+        "isExtraImport": true,
+        "detail": "components.buttons",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "set_configuration",
+        "importPath": "set_configs",
+        "description": "set_configs",
+        "isExtraImport": true,
+        "detail": "set_configs",
+        "documentation": {}
+    },
+    {
+        "label": "get_nse_stock_overview",
+        "kind": 2,
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "peekOfCode": "def get_nse_stock_overview(stock_symbol):\n    # OpenAI model\n    client = OpenAI(api_key=OPENAI_API_KEY)\n    prompt = f\"\"\"\n    You are a financial analyst with more than 15 years of experience. Given the NSE stock symbol \"{stock_symbol}\", \n    provide a clear and concise overview containing:\n    1. **Company Overview** – What the company does, sector, and key products/services.\n    2. **Market Capitalization** – Classify as Large-cap, Mid-cap, or Small-cap based on latest available data.\n    3. **Recent Stock Performance** – Mention general trend over the past few months (uptrend, downtrend, volatile, stable).\n    4. **Key Strengths & Risks** – Summarize 2-3 points for each.",
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "create_agents",
+        "kind": 2,
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "peekOfCode": "def create_agents():\n    company_researcher_agent = Agent(\n        role=\"Company Researcher\",\n        goal=\"Gather and analyze comprehensive information about a specified company.\",\n        backstory=\"An expert in corporate research, this agent delves into company profiles, \"\n                  \"financial statements, market position, and sector trends to provide a \"\n                  \"holistic overview. It is skilled at synthesizing data from various sources \"\n                  \"to create a clear and concise company profile.\",\n        verbose=True,\n        allow_delegation=False,",
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "create_tasks",
+        "kind": 2,
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "peekOfCode": "def create_tasks(company_researcher_agent, data_analyst_agent, trading_strategy_agent, execution_agent, risk_management_agent):\n    company_analysis_task = Task(\n        description=(\n            \"Provide a detailed overview of the company behind the stock ({stock_selection}). \"\n            \"Include its sector, market capitalization (large-cap, mid-cap, or small-cap), \"\n            \"what the company does, and its primary business activities.\"\n        ),\n        expected_output=(\n            \"A concise report summarizing the company's profile, including its sector, \"\n            \"market cap classification, and core business operations.\"",
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "call_agent_api",
+        "kind": 2,
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "peekOfCode": "def call_agent_api(payload: Dict, timeout=60) -> Dict:\n    \"\"\"\n    POST the payload to your Agentic AI endpoint and return JSON.\n    Expected to return: {\"markdown_report\": \"## ...\"}\n    \"\"\"\n    company_researcher_agent, data_analyst_agent, trading_strategy_agent, execution_agent, risk_management_agent = create_agents()\n    company_analysis_task, data_analysis_task, strategy_development_task, execution_planning_task, risk_assessment_task = create_tasks(\n        company_researcher_agent, data_analyst_agent, trading_strategy_agent, execution_agent, risk_management_agent\n    )\n    # Define the crew with agents and tasks",
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "OPENAI_API_KEY",
+        "kind": 5,
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "peekOfCode": "OPENAI_API_KEY = os.environ.get(\"OPENAI_API_KEY\")\nOPENAI_MODEL_NAME = os.environ.get(\"OPENAI_MODEL_NAME\")\nSERPER_API_KEY = os.environ.get(\"SERPER_API_KEY\")\nsearch_tool = SerperDevTool()\nscrape_tool = ScrapeWebsiteTool()\ndef get_nse_stock_overview(stock_symbol):\n    # OpenAI model\n    client = OpenAI(api_key=OPENAI_API_KEY)\n    prompt = f\"\"\"\n    You are a financial analyst with more than 15 years of experience. Given the NSE stock symbol \"{stock_symbol}\", ",
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "OPENAI_MODEL_NAME",
+        "kind": 5,
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "peekOfCode": "OPENAI_MODEL_NAME = os.environ.get(\"OPENAI_MODEL_NAME\")\nSERPER_API_KEY = os.environ.get(\"SERPER_API_KEY\")\nsearch_tool = SerperDevTool()\nscrape_tool = ScrapeWebsiteTool()\ndef get_nse_stock_overview(stock_symbol):\n    # OpenAI model\n    client = OpenAI(api_key=OPENAI_API_KEY)\n    prompt = f\"\"\"\n    You are a financial analyst with more than 15 years of experience. Given the NSE stock symbol \"{stock_symbol}\", \n    provide a clear and concise overview containing:",
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "SERPER_API_KEY",
+        "kind": 5,
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "peekOfCode": "SERPER_API_KEY = os.environ.get(\"SERPER_API_KEY\")\nsearch_tool = SerperDevTool()\nscrape_tool = ScrapeWebsiteTool()\ndef get_nse_stock_overview(stock_symbol):\n    # OpenAI model\n    client = OpenAI(api_key=OPENAI_API_KEY)\n    prompt = f\"\"\"\n    You are a financial analyst with more than 15 years of experience. Given the NSE stock symbol \"{stock_symbol}\", \n    provide a clear and concise overview containing:\n    1. **Company Overview** – What the company does, sector, and key products/services.",
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "search_tool",
+        "kind": 5,
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "peekOfCode": "search_tool = SerperDevTool()\nscrape_tool = ScrapeWebsiteTool()\ndef get_nse_stock_overview(stock_symbol):\n    # OpenAI model\n    client = OpenAI(api_key=OPENAI_API_KEY)\n    prompt = f\"\"\"\n    You are a financial analyst with more than 15 years of experience. Given the NSE stock symbol \"{stock_symbol}\", \n    provide a clear and concise overview containing:\n    1. **Company Overview** – What the company does, sector, and key products/services.\n    2. **Market Capitalization** – Classify as Large-cap, Mid-cap, or Small-cap based on latest available data.",
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_tool",
+        "kind": 5,
+        "importPath": "backend.agent_client",
+        "description": "backend.agent_client",
+        "peekOfCode": "scrape_tool = ScrapeWebsiteTool()\ndef get_nse_stock_overview(stock_symbol):\n    # OpenAI model\n    client = OpenAI(api_key=OPENAI_API_KEY)\n    prompt = f\"\"\"\n    You are a financial analyst with more than 15 years of experience. Given the NSE stock symbol \"{stock_symbol}\", \n    provide a clear and concise overview containing:\n    1. **Company Overview** – What the company does, sector, and key products/services.\n    2. **Market Capitalization** – Classify as Large-cap, Mid-cap, or Small-cap based on latest available data.\n    3. **Recent Stock Performance** – Mention general trend over the past few months (uptrend, downtrend, volatile, stable).",
+        "detail": "backend.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_for_yahoo",
+        "kind": 2,
+        "importPath": "backend.data_fetcher",
+        "description": "backend.data_fetcher",
+        "peekOfCode": "def symbol_for_yahoo(symbol: str, exchange: str) -> str:\n    \"\"\"\n    Formats a stock symbol for Yahoo Finance API based on its exchange.\n    - NSE symbols are appended with '.NS'.\n    - BSE symbols are appended with '.BO'.\n    Args:\n        symbol (str): The stock symbol (e.g., \"RELIANCE\").\n        exchange (str): The stock exchange (\"NSE\" or \"BSE\").\n    Returns:\n        str: The formatted symbol for Yahoo Finance (e.g., \"RELIANCE.NS\").",
+        "detail": "backend.data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_history",
+        "kind": 2,
+        "importPath": "backend.data_fetcher",
+        "description": "backend.data_fetcher",
+        "peekOfCode": "def fetch_history(symbol: str, exchange: str, period: str = \"6mo\", interval: str = \"1d\") -> pd.DataFrame:\n    \"\"\"\n    Fetches historical price data for a given stock symbol from Yahoo Finance.\n    Args:\n        symbol (str): The stock symbol.\n        exchange (str): The stock exchange (\"NSE\" or \"BSE\").\n        period (str, optional): The time period for the data (e.g., \"1y\", \"6mo\"). Defaults to \"6mo\".\n        interval (str, optional): The data interval (e.g., \"1d\", \"1wk\"). Defaults to \"1d\".\n    Returns:\n        pd.DataFrame: A DataFrame containing the historical price data.",
+        "detail": "backend.data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "plot_history_to_bytes",
+        "kind": 2,
+        "importPath": "backend.data_fetcher",
+        "description": "backend.data_fetcher",
+        "peekOfCode": "def plot_history_to_bytes(df: pd.DataFrame, title: str = \"Price\") -> BytesIO:\n    \"\"\"\n    Generates a PNG plot of the closing price from a DataFrame and returns it as bytes.\n    Args:\n        df (pd.DataFrame): DataFrame containing stock history with a 'Close' column.\n        title (str, optional): The title of the plot. Defaults to \"Price\".\n    Returns:\n        BytesIO: A bytes buffer containing the PNG image of the plot.\n    \"\"\"\n    plt.ioff()",
+        "detail": "backend.data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "markdown_to_html",
+        "kind": 2,
+        "importPath": "backend.report",
+        "description": "backend.report",
+        "peekOfCode": "def markdown_to_html(markdown_text: str) -> str:\n    \"\"\"\n    Converts a Markdown string to an HTML string.\n    Uses the 'python-markdown' library with 'extra' and 'sane_lists' extensions for table support.\n    Args:\n        markdown_text (str): The Markdown content to convert.\n    Returns:\n        str: The resulting HTML content.\n    \"\"\"\n    html = md_lib.markdown(markdown_text, extensions=[\"extra\", \"sane_lists\"])",
+        "detail": "backend.report",
+        "documentation": {}
+    },
+    {
+        "label": "build_key_metrics_html",
+        "kind": 2,
+        "importPath": "backend.report",
+        "description": "backend.report",
+        "peekOfCode": "def build_key_metrics_html(metrics: dict) -> str:\n    \"\"\"\n    Builds an HTML snippet for displaying key metrics in styled boxes.\n    Args:\n        metrics (dict): A dictionary of metric labels to their values.\n    Returns:\n        str: An HTML string containing the styled metric boxes.\n    \"\"\"\n    parts = []\n    for k, v in metrics.items():",
+        "detail": "backend.report",
+        "documentation": {}
+    },
+    {
+        "label": "build_risk_table_html",
+        "kind": 2,
+        "importPath": "backend.report",
+        "description": "backend.report",
+        "peekOfCode": "def build_risk_table_html(risk_summary: list) -> str:\n    \"\"\"\n    Builds an HTML table from a list of risk summary dictionaries.\n    Args:\n        risk_summary (list): A list of dictionaries, each representing a row in the risk table.\n                             Expected keys: 'area', 'scenario', 'risk', 'mitigation'.\n    Returns:\n        str: An HTML string representing the risk summary table.\n    \"\"\"\n    rows_html = []",
+        "detail": "backend.report",
+        "documentation": {}
+    },
+    {
+        "label": "assemble_html_report",
+        "kind": 2,
+        "importPath": "backend.report",
+        "description": "backend.report",
+        "peekOfCode": "def assemble_html_report(\n    markdown_report: str,\n    overview_report: str,\n    symbol: str,\n    exchange: str = \"NSE\",\n    chart_bytes: Optional[bytes] = None,\n    logo_path: Optional[str] = None,\n    capital: Optional[int] = None,\n    last_close: Optional[float] = None,\n    extra_metrics: Optional[dict] = None,",
+        "detail": "backend.report",
+        "documentation": {}
+    },
+    {
+        "label": "html_to_pdf_bytes",
+        "kind": 2,
+        "importPath": "backend.report",
+        "description": "backend.report",
+        "peekOfCode": "def html_to_pdf_bytes(html: str, base_url: Optional[str] = None, css_string: Optional[str] = None) -> bytes:\n    \"\"\"\n    Converts an HTML string to PDF bytes using the best available engine.\n    It tries WeasyPrint, then pdfkit (wkhtmltopdf), and finally a simple ReportLab fallback.\n    Args:\n        html (str): The HTML content to convert.\n        base_url (Optional[str], optional): The base URL for resolving relative paths in the HTML. Defaults to None.\n        css_string (Optional[str], optional): An additional CSS string to apply. Defaults to None.\n    Raises:\n        RuntimeError: If no suitable HTML-to-PDF conversion engine is found.",
+        "detail": "backend.report",
+        "documentation": {}
+    },
+    {
+        "label": "markdown_to_pdf_bytes",
+        "kind": 2,
+        "importPath": "backend.report",
+        "description": "backend.report",
+        "peekOfCode": "def markdown_to_pdf_bytes(markdown_text: str,\n                          overview_text: str,\n                          symbol: str,\n                          exchange: str = \"NSE\",\n                          chart_bytes: Optional[bytes] = None,\n                          logo_path: Optional[str] = None,\n                          capital: Optional[int] = None,\n                          last_close: Optional[float] = None,\n                          extra_metrics: Optional[dict] = None,\n                          risk_summary: Optional[list] = None) -> bytes:",
+        "detail": "backend.report",
+        "documentation": {}
+    },
+    {
+        "label": "_BASE_CSS",
+        "kind": 5,
+        "importPath": "backend.report",
+        "description": "backend.report",
+        "peekOfCode": "_BASE_CSS = \"\"\"\n@page { size: A4; margin: 28mm 20mm 20mm 20mm; }\nbody {\n  font-family: \"Inter\", \"Arial\", sans-serif;\n  color: #111;\n  background: #fff;\n  line-height: 1.45;\n  font-size: 12px;\n}\n.header {",
+        "detail": "backend.report",
+        "documentation": {}
+    },
+    {
+        "label": "_HTML_TEMPLATE",
+        "kind": 5,
+        "importPath": "backend.report",
+        "description": "backend.report",
+        "peekOfCode": "_HTML_TEMPLATE = \"\"\"\n<html>\n  <head>\n    <meta charset=\"utf-8\" />\n    <style>{css}</style>\n  </head>\n  <body>\n    <div class=\"header\">\n      <div class=\"brand\">\n        {logo_html}",
+        "detail": "backend.report",
+        "documentation": {}
+    },
+    {
+        "label": "styled_button",
+        "kind": 2,
+        "importPath": "components.buttons",
+        "description": "components.buttons",
+        "peekOfCode": "def styled_button(label, key=None, on_click=None, args=None, kwargs=None, type=\"primary\"):\n    \"\"\"Creates a styled button with custom CSS classes.\"\"\"\n    if type == \"primary\":\n        st.button(label, key=key, on_click=on_click, args=args, kwargs=kwargs, use_container_width=True)\n    elif type == \"reset\":\n        st.markdown(\n            f\"<button class='reset-btn' onclick='{on_click}'>{label}</button>\",\n            unsafe_allow_html=True\n        )\ndef styled_download_button(label, data, file_name, mime, key=None, type=\"primary\"):",
+        "detail": "components.buttons",
+        "documentation": {}
+    },
+    {
+        "label": "styled_download_button",
+        "kind": 2,
+        "importPath": "components.buttons",
+        "description": "components.buttons",
+        "peekOfCode": "def styled_download_button(label, data, file_name, mime, key=None, type=\"primary\"):\n    \"\"\"Creates a styled download button.\"\"\"\n    st.download_button(label, data, file_name, mime, key=key, use_container_width=True)",
+        "detail": "components.buttons",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "pages.1_Home",
+        "description": "pages.1_Home",
+        "peekOfCode": "df = pd.DataFrame({\n    \"Date\": pd.to_datetime(pd.date_range(start=\"2025-07-01\", periods=30)),\n    \"NIFTY 50\": [random.uniform(18500, 19500) for _ in range(30)],\n    \"SENSEX\": [random.uniform(62000, 65000) for _ in range(30)]\n})\ndf = df.set_index(\"Date\")\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=df.index, y=df[\"NIFTY 50\"], mode='lines+markers', name='NIFTY 50', line=dict(color='#ff5722')))\nfig.add_trace(go.Scatter(x=df.index, y=df[\"SENSEX\"], mode='lines+markers', name='SENSEX', line=dict(color='#2196f3'), visible='legendonly'))\nfig.update_layout(",
+        "detail": "pages.1_Home",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "pages.1_Home",
+        "description": "pages.1_Home",
+        "peekOfCode": "df = df.set_index(\"Date\")\nfig = go.Figure()\nfig.add_trace(go.Scatter(x=df.index, y=df[\"NIFTY 50\"], mode='lines+markers', name='NIFTY 50', line=dict(color='#ff5722')))\nfig.add_trace(go.Scatter(x=df.index, y=df[\"SENSEX\"], mode='lines+markers', name='SENSEX', line=dict(color='#2196f3'), visible='legendonly'))\nfig.update_layout(\n    title=\"NIFTY 50 vs SENSEX Interactive Chart\",\n    xaxis_title=\"Date\",\n    yaxis_title=\"Index Value\",\n    legend_title=\"Indices\",\n    template=\"plotly_white\",",
+        "detail": "pages.1_Home",
+        "documentation": {}
+    },
+    {
+        "label": "fig",
+        "kind": 5,
+        "importPath": "pages.1_Home",
+        "description": "pages.1_Home",
+        "peekOfCode": "fig = go.Figure()\nfig.add_trace(go.Scatter(x=df.index, y=df[\"NIFTY 50\"], mode='lines+markers', name='NIFTY 50', line=dict(color='#ff5722')))\nfig.add_trace(go.Scatter(x=df.index, y=df[\"SENSEX\"], mode='lines+markers', name='SENSEX', line=dict(color='#2196f3'), visible='legendonly'))\nfig.update_layout(\n    title=\"NIFTY 50 vs SENSEX Interactive Chart\",\n    xaxis_title=\"Date\",\n    yaxis_title=\"Index Value\",\n    legend_title=\"Indices\",\n    template=\"plotly_white\",\n    hovermode=\"x unified\"",
+        "detail": "pages.1_Home",
+        "documentation": {}
+    },
+    {
+        "label": "terms",
+        "kind": 5,
+        "importPath": "pages.1_Home",
+        "description": "pages.1_Home",
+        "peekOfCode": "terms = \"Stocks Bonds Investment Portfolio Dividend IPO Index ETF MutualFunds Derivatives MarketCap Valuation BullMarket BearMarket InterestRate Inflation GDP Growth Earnings Revenue\"\nwordcloud = WordCloud(width=800, height=400, background_color=\"white\", colormap=\"viridis\").generate(terms)\nst.image(wordcloud.to_array(), use_container_width=True)\nst.markdown('</div>', unsafe_allow_html=True)\n# --- Call to Action ---\nst.markdown('<div class=\"card-reflect\" style=\"text-align:center;\">', unsafe_allow_html=True)\nst.markdown('<p class=\"section-title\">🚀 Ready to Dive Deeper?</p>', unsafe_allow_html=True)\nst.markdown(\"Navigate to the **Analysis** page from the sidebar to get detailed AI-driven insights on individual stocks.\")\nif st.button(\"Go to Analysis\", use_container_width=True):\n    st.switch_page(\"pages/2_Analysis.py\")",
+        "detail": "pages.1_Home",
+        "documentation": {}
+    },
+    {
+        "label": "wordcloud",
+        "kind": 5,
+        "importPath": "pages.1_Home",
+        "description": "pages.1_Home",
+        "peekOfCode": "wordcloud = WordCloud(width=800, height=400, background_color=\"white\", colormap=\"viridis\").generate(terms)\nst.image(wordcloud.to_array(), use_container_width=True)\nst.markdown('</div>', unsafe_allow_html=True)\n# --- Call to Action ---\nst.markdown('<div class=\"card-reflect\" style=\"text-align:center;\">', unsafe_allow_html=True)\nst.markdown('<p class=\"section-title\">🚀 Ready to Dive Deeper?</p>', unsafe_allow_html=True)\nst.markdown(\"Navigate to the **Analysis** page from the sidebar to get detailed AI-driven insights on individual stocks.\")\nif st.button(\"Go to Analysis\", use_container_width=True):\n    st.switch_page(\"pages/2_Analysis.py\")\nst.markdown('</div>', unsafe_allow_html=True)",
+        "detail": "pages.1_Home",
+        "documentation": {}
+    },
+    {
+        "label": "load_tickers",
+        "kind": 2,
+        "importPath": "pages.2_Analysis",
+        "description": "pages.2_Analysis",
+        "peekOfCode": "def load_tickers():\n    try:\n        if TICKERS_FILE.exists():\n            with open(TICKERS_FILE, \"r\", encoding=\"utf-8\") as f:\n                return json.load(f)\n        else:\n            with open(DEFAULT_TICKERS, \"r\", encoding=\"utf-8\") as f:\n                return json.load(f)\n    except Exception:\n        return {\"NSE\": [], \"BSE\": []}",
+        "detail": "pages.2_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "build_options_and_map",
+        "kind": 2,
+        "importPath": "pages.2_Analysis",
+        "description": "pages.2_Analysis",
+        "peekOfCode": "def build_options_and_map(tickers_data, cap=3000):\n    options = []\n    mapping = {}\n    for exch in [\"NSE\", \"BSE\"]:\n        for item in tickers_data.get(exch, [])[:cap]:\n            label = f\"{item['symbol']} — {item.get('name','')}\"\n            options.append(label)\n            mapping[label] = {\"symbol\": item[\"symbol\"], \"exchange\": exch}\n    return options, mapping\ndef create_price_figure(df, symbol):",
+        "detail": "pages.2_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "create_price_figure",
+        "kind": 2,
+        "importPath": "pages.2_Analysis",
+        "description": "pages.2_Analysis",
+        "peekOfCode": "def create_price_figure(df, symbol):\n    fig = go.Figure()\n    fig.add_trace(go.Scatter(x=df.index, y=df[\"Close\"], mode=\"lines\", name=\"Close\"))\n    fig.update_layout(\n        title=f\"{symbol} — Price (close)\",\n        margin=dict(l=10, r=10, t=32, b=10),\n        template=\"plotly_dark\" if st.session_state.get(\"theme\", \"dark\") == \"dark\" else \"plotly_white\",\n        height=380\n    )\n    fig.update_xaxes(showgrid=False)",
+        "detail": "pages.2_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "reset_analysis",
+        "kind": 2,
+        "importPath": "pages.2_Analysis",
+        "description": "pages.2_Analysis",
+        "peekOfCode": "def reset_analysis():\n    for key in [\"last_md\", \"last_pdf\", \"last_chart_bytes\", \"stock_label\", \"capital\", \"strategy\", \"risk\", \"news_impact\"]:\n        if key in st.session_state:\n            del st.session_state[key]\nwith st.container():\n    st.markdown(\"#### 1. Select Inputs\")\n    stock_label = st.selectbox(\"Select stock\", options, index=0, help=\"Symbol — Company name\", key=\"stock_label\")\n    capital = st.number_input(\"Capital (INR)\", min_value=1000, step=1000, value=10000, format=\"%d\", key=\"capital\")\n    strategy = st.selectbox(\n        \"Trading strategy\",",
+        "detail": "pages.2_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "DATA",
+        "kind": 5,
+        "importPath": "pages.2_Analysis",
+        "description": "pages.2_Analysis",
+        "peekOfCode": "DATA = Path(\"data\")\nDEFAULT_TICKERS = DATA / \"tickers_sample.json\"\nTICKERS_FILE = DATA / \"tickers.json\"\ndef load_tickers():\n    try:\n        if TICKERS_FILE.exists():\n            with open(TICKERS_FILE, \"r\", encoding=\"utf-8\") as f:\n                return json.load(f)\n        else:\n            with open(DEFAULT_TICKERS, \"r\", encoding=\"utf-8\") as f:",
+        "detail": "pages.2_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_TICKERS",
+        "kind": 5,
+        "importPath": "pages.2_Analysis",
+        "description": "pages.2_Analysis",
+        "peekOfCode": "DEFAULT_TICKERS = DATA / \"tickers_sample.json\"\nTICKERS_FILE = DATA / \"tickers.json\"\ndef load_tickers():\n    try:\n        if TICKERS_FILE.exists():\n            with open(TICKERS_FILE, \"r\", encoding=\"utf-8\") as f:\n                return json.load(f)\n        else:\n            with open(DEFAULT_TICKERS, \"r\", encoding=\"utf-8\") as f:\n                return json.load(f)",
+        "detail": "pages.2_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "TICKERS_FILE",
+        "kind": 5,
+        "importPath": "pages.2_Analysis",
+        "description": "pages.2_Analysis",
+        "peekOfCode": "TICKERS_FILE = DATA / \"tickers.json\"\ndef load_tickers():\n    try:\n        if TICKERS_FILE.exists():\n            with open(TICKERS_FILE, \"r\", encoding=\"utf-8\") as f:\n                return json.load(f)\n        else:\n            with open(DEFAULT_TICKERS, \"r\", encoding=\"utf-8\") as f:\n                return json.load(f)\n    except Exception:",
+        "detail": "pages.2_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "tickers_data",
+        "kind": 5,
+        "importPath": "pages.2_Analysis",
+        "description": "pages.2_Analysis",
+        "peekOfCode": "tickers_data = load_tickers()\noptions, mapping = build_options_and_map(tickers_data)\n# ---------------------------------------------------------------------\n# Input Section\n# ---------------------------------------------------------------------\ndef reset_analysis():\n    for key in [\"last_md\", \"last_pdf\", \"last_chart_bytes\", \"stock_label\", \"capital\", \"strategy\", \"risk\", \"news_impact\"]:\n        if key in st.session_state:\n            del st.session_state[key]\nwith st.container():",
+        "detail": "pages.2_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "agent_api_url",
+        "kind": 5,
+        "importPath": "pages.4_Settings",
+        "description": "pages.4_Settings",
+        "peekOfCode": "agent_api_url = st.text_input(\"Agent API URL\", value=os.environ.get(\"AGENT_API_URL\", \"\"), placeholder=\"http://localhost:8000\")\nagent_api_key = st.text_input(\"Agent API Key\", value=os.environ.get(\"AGENT_API_KEY\", \"\"), type=\"password\", placeholder=\"Enter your API key\")\nif st.button(\"Save Configuration\"):\n    os.environ[\"AGENT_API_URL\"] = agent_api_url\n    os.environ[\"AGENT_API_KEY\"] = agent_api_key\n    st.success(\"Configuration saved successfully!\")\nst.markdown(\"---\")\nst.subheader(\"PDF Generation Setup\")\nst.markdown(\"\"\"\nTo enable polished PDF generation, you need to install `wkhtmltopdf`.",
+        "detail": "pages.4_Settings",
+        "documentation": {}
+    },
+    {
+        "label": "agent_api_key",
+        "kind": 5,
+        "importPath": "pages.4_Settings",
+        "description": "pages.4_Settings",
+        "peekOfCode": "agent_api_key = st.text_input(\"Agent API Key\", value=os.environ.get(\"AGENT_API_KEY\", \"\"), type=\"password\", placeholder=\"Enter your API key\")\nif st.button(\"Save Configuration\"):\n    os.environ[\"AGENT_API_URL\"] = agent_api_url\n    os.environ[\"AGENT_API_KEY\"] = agent_api_key\n    st.success(\"Configuration saved successfully!\")\nst.markdown(\"---\")\nst.subheader(\"PDF Generation Setup\")\nst.markdown(\"\"\"\nTo enable polished PDF generation, you need to install `wkhtmltopdf`.\n**Installation Instructions:**",
+        "detail": "pages.4_Settings",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_exists",
+        "kind": 2,
+        "importPath": "scripts.fetch_tickers",
+        "description": "scripts.fetch_tickers",
+        "peekOfCode": "def symbol_exists(exchange_list, symbol):\n    return any(t[\"symbol\"] == symbol for t in exchange_list)\n# Single session for cookies & headers\nsession = requests.Session()\nsession.headers.update({\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) \"\n                  \"AppleWebKit/537.36 (KHTML, like Gecko) \"\n                  \"Chrome/114.0.0.0 Safari/537.36\",\n    \"Accept-Language\": \"en-US,en;q=0.9\",\n    \"Accept-Encoding\": \"gzip, deflate, br\",",
+        "detail": "scripts.fetch_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_nse",
+        "kind": 2,
+        "importPath": "scripts.fetch_tickers",
+        "description": "scripts.fetch_tickers",
+        "peekOfCode": "def fetch_nse():\n    \"\"\"Fetch NSE F&O securities list via API.\"\"\"\n    try:\n        url = \"https://www.nseindia.com/api/equity-stockIndices?index=SECURITIES%20IN%20F%26O\"\n        session.get(\"https://www.nseindia.com\", timeout=10)  # set cookies\n        r = session.get(url, timeout=30)\n        r.raise_for_status()\n        data = r.json()\n        return [\n            {\"symbol\": item.get(\"symbol\", \"\").strip(),",
+        "detail": "scripts.fetch_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.fetch_tickers",
+        "description": "scripts.fetch_tickers",
+        "peekOfCode": "def main():\n    try:\n        print(\"Fetching NSE...\")\n        nse_data = fetch_nse()\n        added = 0\n        for item in nse_data:\n            if not symbol_exists(tickers[\"NSE\"], item[\"symbol\"]):\n                tickers[\"NSE\"].append(item)\n                added += 1\n        print(f\"Added {added} new NSE entries (total: {len(tickers['NSE'])}).\")",
+        "detail": "scripts.fetch_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "OUT",
+        "kind": 5,
+        "importPath": "scripts.fetch_tickers",
+        "description": "scripts.fetch_tickers",
+        "peekOfCode": "OUT = Path(\"data\")\nOUT.mkdir(parents=True, exist_ok=True)\nTICKERS_FILE = OUT / \"tickers.json\"\n# Load existing tickers (if any)\nif TICKERS_FILE.exists():\n    with open(TICKERS_FILE, \"r\", encoding=\"utf-8\") as f:\n        tickers = json.load(f)\nelse:\n    tickers = {\"NSE\": [], \"BSE\": []}\n# Ensure structure",
+        "detail": "scripts.fetch_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "TICKERS_FILE",
+        "kind": 5,
+        "importPath": "scripts.fetch_tickers",
+        "description": "scripts.fetch_tickers",
+        "peekOfCode": "TICKERS_FILE = OUT / \"tickers.json\"\n# Load existing tickers (if any)\nif TICKERS_FILE.exists():\n    with open(TICKERS_FILE, \"r\", encoding=\"utf-8\") as f:\n        tickers = json.load(f)\nelse:\n    tickers = {\"NSE\": [], \"BSE\": []}\n# Ensure structure\ntickers.setdefault(\"NSE\", [])\ntickers.setdefault(\"BSE\", [])",
+        "detail": "scripts.fetch_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "kind": 5,
+        "importPath": "scripts.fetch_tickers",
+        "description": "scripts.fetch_tickers",
+        "peekOfCode": "session = requests.Session()\nsession.headers.update({\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) \"\n                  \"AppleWebKit/537.36 (KHTML, like Gecko) \"\n                  \"Chrome/114.0.0.0 Safari/537.36\",\n    \"Accept-Language\": \"en-US,en;q=0.9\",\n    \"Accept-Encoding\": \"gzip, deflate, br\",\n})\ndef fetch_nse():\n    \"\"\"Fetch NSE F&O securities list via API.\"\"\"",
+        "detail": "scripts.fetch_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "FinoTron",
+        "description": "FinoTron",
+        "peekOfCode": "df = pd.DataFrame({\n    \"Task\": [\"Goal Setting\", \"Information Gathering\", \"Data Analysis\", \"Strategy Formulation\", \"Report Generation\"],\n    \"Time (minutes)\": [1, 15, 10, 8, 5],\n})\nfig = go.Figure(go.Funnel(\n    y=df[\"Task\"],\n    x=df[\"Time (minutes)\"],\n    textposition=\"inside\",\n    textinfo=\"value+percent initial\",\n    marker={\"color\": [\"#38bdf8\", \"#34d399\", \"#fbbf24\", \"#f87171\", \"#c084fc\"]}",
+        "detail": "FinoTron",
+        "documentation": {}
+    },
+    {
+        "label": "fig",
+        "kind": 5,
+        "importPath": "FinoTron",
+        "description": "FinoTron",
+        "peekOfCode": "fig = go.Figure(go.Funnel(\n    y=df[\"Task\"],\n    x=df[\"Time (minutes)\"],\n    textposition=\"inside\",\n    textinfo=\"value+percent initial\",\n    marker={\"color\": [\"#38bdf8\", \"#34d399\", \"#fbbf24\", \"#f87171\", \"#c084fc\"]}\n))\nfig.update_layout(\n    title=\"Time Allocation in an Agentic Financial Analysis Workflow\",\n    template=\"plotly_dark\"",
+        "detail": "FinoTron",
+        "documentation": {}
+    },
+    {
+        "label": "set_configuration",
+        "kind": 2,
+        "importPath": "set_configs",
+        "description": "set_configs",
+        "peekOfCode": "def set_configuration():\n    os.environ[\"OPENAI_API_KEY\"] = \"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\"\n    os.environ[\"OPENAI_MODEL_NAME\"] = 'gpt-5-chat-latest'\n    os.environ[\"SERPER_API_KEY\"] = '5f2abc94c71777307f6091f7fcff1ee31f6a48c8'",
+        "detail": "set_configs",
+        "documentation": {}
+    }
+]
