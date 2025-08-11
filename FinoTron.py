@@ -1,3 +1,13 @@
+# Force Chroma to use pysqlite3 instead of the system sqlite3
+import sys
+try:
+    import pysqlite3
+    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+except ImportError:
+    print("pysqlite3 not found, please install pysqlite3-binary")
+
+
+
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
