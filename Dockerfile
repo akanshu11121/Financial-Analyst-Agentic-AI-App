@@ -7,6 +7,8 @@ WORKDIR /app
 # Install system dependencies for wkhtmltopdf
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+        sqlite3 \
+        libsqlite3-dev \
         wkhtmltopdf \
         fontconfig \
         libxrender1 \
@@ -15,8 +17,13 @@ RUN apt-get update && \
         libjpeg62-turbo \
         libpng16-16 \
         libssl3 \
-        libstdc++6 && \
+        libstdc++6 \
+        build-essential \
+        curl && \
     rm -rf /var/lib/apt/lists/*
+
+# Verify sqlite3 version
+RUN sqlite3 --version
 
 # Copy the dependencies file to the working directory
 COPY requirements.txt .
