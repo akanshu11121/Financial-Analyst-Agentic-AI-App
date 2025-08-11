@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libssl3 \
     libstdc++6 \
     curl \
+    && ln -sf /usr/bin/wkhtmltopdf /usr/local/bin/wkhtmltopdf \
     && rm -rf /var/lib/apt/lists/*
 
 # Upgrade pip and install pysqlite3-binary
