@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-from set_configs import set_configuration
+# from set_configs import set_configuration
 
 # --- Page Configuration ---
 # set_configuration()
