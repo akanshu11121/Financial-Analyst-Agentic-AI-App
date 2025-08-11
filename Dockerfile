@@ -1,35 +1,35 @@
+# Use Python 3.10 slim image
 FROM python:3.10-slim
 
 WORKDIR /app
 
-# Install build tools & dependencies
+# Install required system packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    wget build-essential zlib1g-dev libssl-dev libbz2-dev libreadline-dev \
-    libsqlite3-dev tk-dev libgdbm-dev libnss3-dev libffi-dev liblzma-dev \
-    uuid-dev wkhtmltopdf fontconfig libxrender1 libxext6 \
-    libjpeg62-turbo libpng16-16 curl \
+    wget \
+    build-essential \
+    wkhtmltopdf \
+    fontconfig \
+    libxrender1 \
+    libxext6 \
+    libjpeg62-turbo \
+    libpng16-16 \
+    libssl3 \
+    libstdc++6 \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Build SQLite 3.45+
-RUN wget https://www.sqlite.org/2024/sqlite-autoconf-3450000.tar.gz && \
-    tar xvfz sqlite-autoconf-3450000.tar.gz && \
-    cd sqlite-autoconf-3450000 && \
-    ./configure --prefix=/usr/local && make && make install && \
-    cd .. && rm -rf sqlite-autoconf-3450000*
+# Upgrade pip and install pysqlite3-binary for Chroma compatibility
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir pysqlite3-binary
 
-# Build Python 3.10 from source linked to new SQLite
-RUN wget https://www.python.org/ftp/python/3.10.14/Python-3.10.14.tgz && \
-    tar xzf Python-3.10.14.tgz && cd Python-3.10.14 && \
-    ./configure --enable-optimizations && make && make install && \
-    cd .. && rm -rf Python-3.10.14*
+# Verify Python's sqlite3 is actually using pysqlite3
+RUN python -c "import sys, sqlite3; print('Python sqlite3 version:', sqlite3.sqlite_version)"
 
-# Verify SQLite in Python
-RUN python3 -c "import sqlite3; print(sqlite3.sqlite_version)"
-
-# Install Python deps
+# Install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Copy app source
 COPY . .
 
 EXPOSE 8501
