@@ -17,6 +17,7 @@ RUN apk add --no-cache \
     curl
 
 RUN sqlite3 --version
+RUN python -c "import sqlite3; print('Python sqlite3:', sqlite3.sqlite_version)"
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
