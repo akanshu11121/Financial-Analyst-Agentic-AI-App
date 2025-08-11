@@ -1,12 +1,10 @@
-# Use Python 3.10 slim image
 FROM python:3.10-slim
 
+# Set working directory
 WORKDIR /app
 
-# Install required system packages
+# Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    wget \
-    build-essential \
     wkhtmltopdf \
     fontconfig \
     libxrender1 \
@@ -19,22 +17,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && ln -sf /usr/bin/wkhtmltopdf /usr/local/bin/wkhtmltopdf \
     && rm -rf /var/lib/apt/lists/*
 
-# Upgrade pip and install pysqlite3-binary
-RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir pysqlite3-binary
+# Upgrade SQLite to latest (optional)
+RUN apt-get install -y sqlite3 libsqlite3-dev && sqlite3 --version
 
-# Copy requirements & install deps
+# Install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy app source
+# Copy app files
 COPY . .
 
-# Copy sitecustomize.py into Python's site-packages so it runs at startup
-COPY sitecustomize.py /usr/local/lib/python3.10/site-packages/
-
-EXPOSE 8501
-ENV STREAMLIT_SERVER_PORT=8501
-ENV STREAMLIT_SERVER_HEADLESS=true
-
-CMD ["streamlit", "run", "FinoTron.py"]
+CMD ["python", "app.py"]
