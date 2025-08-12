@@ -196,7 +196,7 @@ def call_agent_api(payload: Dict, timeout=60) -> Dict:
             execution_planning_task,
             risk_assessment_task
         ],
-        manager_llm=ChatOpenAI(openai_api_key=OPENAI_API_KEY, model=OPENAI_MODEL_NAME, temperature=0),
+        manager_llm=ChatOpenAI(api_key=OPENAI_API_KEY, model=OPENAI_MODEL_NAME, temperature=0),
         process=Process.hierarchical,
         verbose=True
     )
