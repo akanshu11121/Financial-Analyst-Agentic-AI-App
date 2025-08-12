@@ -2,6 +2,7 @@ __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
+import os
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -9,6 +10,11 @@ from set_configs import set_configuration
 
 # --- Page Configuration ---
 set_configuration()
+
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+os.environ["OPENAI_MODEL_NAME"] = st.secrets["OPENAI_MODEL_NAME"]
+os.environ["SERPER_API_KEY"] = st.secrets["SERPER_API_KEY"]
+
 st.set_page_config(
     page_title="Agentic AI in Finance",
     layout="wide",
