@@ -1,6 +1,7 @@
 # backend/agent_client.py
 import requests
 import os
+import streamlit as st
 from typing import Dict
 from openai import OpenAI
 from crewai import Agent, Task, Crew
@@ -11,6 +12,10 @@ from langchain_openai import ChatOpenAI
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 OPENAI_MODEL_NAME = os.environ.get("OPENAI_MODEL_NAME")
 SERPER_API_KEY = os.environ.get("SERPER_API_KEY")
+
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+OPENAI_MODEL_NAME = st.secrets["OPENAI_MODEL_NAME"]
+SERPER_API_KEY = st.secrets["SERPER_API_KEY"]
 
 search_tool = SerperDevTool()
 scrape_tool = ScrapeWebsiteTool()
